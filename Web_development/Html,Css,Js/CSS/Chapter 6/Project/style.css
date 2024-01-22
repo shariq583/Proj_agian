@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav
+{
+    background-color: rgb(193, 191, 191);
+    border: 0.5px solid black;
+    display :flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* align-items: center; */
+}
+.Main_heading
+{
+    font-family: 'Cairo Play', sans-serif;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.nav_sec
+{
+    display: flex;
+    background-color: rgb(223, 222, 222);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    border: 0.1px solid black;
+}
+.nav_sec ul li
+{
+    display: inline;
+}
+.nav_sec ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.leftWindow
+{
+    border: 1px solid black;
+    height: 50vh;
+    width: 35vw;
+}
