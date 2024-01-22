@@ -34,12 +34,86 @@
 }
 .nav_sec ul li a
 {
+    padding: 0px 0.2vw;
     text-decoration: none;
     color: black;
 }
 .leftWindow
 {
+    background-color: rgba(246, 240, 240, 0.571);
     border: 1px solid black;
-    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
     width: 35vw;
+}
+.mini_box1
+{
+    margin: 0.1vh;
+    border: 0.1px solid gray;
+}
+.m_h1
+{
+    text-align: left;
+    font-weight: bold;    
+}
+.txt1
+{
+    font-size: 13px;
+}
+.mini_box2
+{
+    margin: 0.1vh;
+    border: 0.1px solid gray;
+}
+.m_h2
+{
+    text-align: left;
+    font-weight: bold;    
+}
+.txt2
+{
+    font-size: 13px;
+}
+.mini_box3
+{
+    margin: 0.1vh;
+    border: 0.1px solid gray;
+}
+.m_h3
+{
+    text-align: left;
+    font-weight: bold;    
+}
+.txt3
+{
+    font-size: 13px;
+}
+.mini_box4
+{
+    margin: 0.1vh;
+    border: 0.1px solid gray;
+}
+.m_h4
+{
+    text-align: left;
+    font-weight: bold;    
+}
+.txt4
+{
+    font-size: 13px;
+}
+.mini_box5
+{
+    margin: 0.1vh;
+    border: 0.1px solid gray;
+}
+.m_h5
+{
+    text-align: left;
+    font-weight: bold;    
+}
+.txt5
+{
+    font-size: 13px;
 }
