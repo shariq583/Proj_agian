@@ -52,7 +52,7 @@
     background-color: rgba(246, 240, 240, 0.571);
     border: 1px solid black;
     border-radius: 1%;
-    height: 100vh;
+    min-height: 100vh;
     width: 35vw;
     margin-left: 0.1vw;
     padding: 0vh 0.1vw;
@@ -134,13 +134,59 @@
 }
 .RightWindow
 {
+    display: flex;
+    flex-direction: column;
     background-color: rgba(246, 240, 240, 0.571);
     border: 1px solid black;
-    height: 100vh;
+    min-height: 100vh;
     width: 65vw;
 }
 .RightWindow_Heading
 {
     text-decoration: underline;
     padding:1vh 0vh 0vh 1vw;
+}
+.RightArticle_Heading
+{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.RW_Main_Article
+{
+    margin: 1vh 0.6vw;
+}
+.Cold_Weather
+{
+    margin-left: 10vw;
+    width: 35vw;
+}
+.AR_Article
+{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+}
+.AboutMain_Heading
+{
+    margin: 1vh 2vw;
+    flex-grow: 3;
+    text-decoration: underline;
+}
+.AboutMain_Article 
+{
+    border-top: 0px;
+    border-bottom: 0px;    
+    border-left: 2px;
+    border-right: 2px;
+    border-style: dotted;
+    /* border-style: double; */
+    color: crimson;
+    margin-right: -32vw;
+    margin-left: 41vw;
+    flex-grow: 1;
+    justify-items: center;
+    font-size: larger;
+    font-weight: bolder;
+    /* text-align: center; */
 }
