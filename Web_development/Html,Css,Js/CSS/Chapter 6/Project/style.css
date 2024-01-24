@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@800&display=swap');
+/* Main Page */
 *{
     margin: 0;
     padding: 0;
 }
+/* Navbar */
 .nav
 {
     background-color: rgb(193, 191, 191);
@@ -18,6 +20,7 @@
     text-decoration: underline;
     font-size: 30px;
 }
+/* Secondray navbar */
 .nav_sec
 {
     display: flex;
@@ -38,6 +41,7 @@
     text-decoration: none;
     color: black;
 }
+/* Index Html main */
 .Main
 {
     display: flex;
@@ -47,6 +51,7 @@
     display: flex;
     flex-direction: column;
 }
+/* Left Window */
 .LeftWindow
 {
     background-color: rgba(246, 240, 240, 0.571);
@@ -132,6 +137,7 @@
 {
     font-size: 13px;
 }
+/* Right Window */
 .RightWindow
 {
     display: flex;
@@ -161,6 +167,16 @@
     margin-left: 10vw;
     width: 35vw;
 }
+/* footer */
+.footer
+{
+    margin-top: 100vh;
+    border: 1px solid black;
+    background-color: rgba(246, 240, 240, 0.571);
+    text-align: center;
+    font-weight: lighter;
+}
+/* About Us Page! */
 .AR_Article
 {
     display: flex;
@@ -189,4 +205,46 @@
     font-size: larger;
     font-weight: bolder;
     /* text-align: center; */
+}
+.AboutArticle_History
+{
+    display: flex;
+    flex-direction: column;
+}
+.AboutHistory_Heading
+{
+    margin: 1vh 2vw;
+    text-decoration: underline;
+}
+.History_Article
+{
+    margin-top: 2vh;
+    border-top: 0px;
+    border-bottom: 0px;    
+    border-left: 2px;
+    border-right: 2px;
+    border-style: dotted;
+    /* border-style: double; */
+    color: rgb(0, 115, 19);
+    margin-right: -32vw;
+    margin-left: 41vw;
+    flex-grow: 1;
+    justify-items: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+/* Contact Us! */
+.Contact_Main
+{
+    display: flex;
+    flex-direction: column;
+}
+.ContactMain_Heading
+{
+        margin: 1vh 2vw;
+    text-decoration: underline;
+}
+.ContactEmail
+{
+    justify-items: center;
 }
