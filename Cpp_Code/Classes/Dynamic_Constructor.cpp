@@ -6,8 +6,7 @@ class BankDep
     int years;
     float intr_rte;
     float res_val;
-
-public:
+    public:
     BankDep() {}
     BankDep(int p, int y, float r)
     {
