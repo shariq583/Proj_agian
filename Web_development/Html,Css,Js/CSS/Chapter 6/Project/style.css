@@ -244,7 +244,11 @@
         margin: 1vh 2vw;
     text-decoration: underline;
 }
-.ContactEmail
+.ContactEmail_Heading
 {
-    justify-items: center;
+    display: inline;
+}
+.ContactEmail p
+{
+    display: inline;
 }
