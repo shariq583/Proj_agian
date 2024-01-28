@@ -28,7 +28,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    height: 5vh;
+    min-height: 5vh;
     border: 0.1px solid black;
 }
 .nav_sec ul li
@@ -234,21 +234,48 @@
     font-weight: bolder;
 }
 /* Contact Us! */
-.Contact_Main
+.ContactMain_Heading
+{
+    margin-left: 2vw;
+}
+.ContactMain_EC
 {
     display: flex;
     flex-direction: column;
-}
-.ContactMain_Heading
-{
-        margin: 1vh 2vw;
-    text-decoration: underline;
+    align-items: center;
+    justify-items: center;
+    color: red;
+    
 }
 .ContactEmail_Heading
 {
-    display: inline;
+    margin-left: -219px;
+    margin-bottom:-18px;
 }
-.ContactEmail p
+.ContactEmail
 {
-    display: inline;
+    margin-left: 0px;
+}
+.ContactCell_Heading
+{
+    margin-left: -219px;
+    margin-bottom:-18px;
+}
+.ContactCell
+{
+    margin-left: 0px;
+}
+.ContactQueryMain_Heading
+{
+    margin-left: 2vw;
+}
+.Query textarea
+{
+    margin-left: 30vw;
+    border: 1px solid red;
+    padding: 1vh 0vw 0vh 1vw;
+}
+.SubmitButton
+{
+    margin-left: 0px;
 }
