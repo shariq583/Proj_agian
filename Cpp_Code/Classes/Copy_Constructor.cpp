@@ -1,5 +1,5 @@
 // Copy Constructors are used to pass the value of an object to another object!
-// If there is no Copy Constructor in the class the compiler will supply it's own copy constructor
+// If there is no Copy Constructor in the class the compiler will supply it's own copy constructor.
 #include <iostream>
 using namespace std;
 class simple 
