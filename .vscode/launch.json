@@ -8,13 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-<<<<<<< HEAD
       "cwd": "e:/coding/Proj_Repo/Proj_agian",
       "program": "e:/coding/Proj_Repo/Proj_agian/build/Debug/outDebug",
-=======
-      "cwd": "f:/Coding/Programing/MainCodeGitHub/ExpLAB/Proj_agian/Proj_agian",
-      "program": "f:/Coding/Programing/MainCodeGitHub/ExpLAB/Proj_agian/Proj_agian/build/Debug/outDebug",
->>>>>>> 942601d6c48c6fa8e62454890987f131159f95ca
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
