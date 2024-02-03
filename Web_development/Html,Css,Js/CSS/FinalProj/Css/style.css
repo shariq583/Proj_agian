@@ -47,39 +47,16 @@
 }
 .image1
 {
-   animation-name: slide1;
-   animation-duration: 2s;
-   animation-timing-function: ease-in-out;
+    width: 100vw;
+   
 }
 .image2
 {
-    visibility: hidden;
+ 
+    
+
 }
 .image3
 {
-    visibility: hidden;    
-}
-@keyframes slide1
-{
-    0%
-    {
-       transform: translateX(10vw); 
-    }
-    25%
-    {
-       transform: translateX(30vw); 
-    }
-    50%
-    {
-       transform: translateX(50vw); 
-    }
-    75%
-    {
-       transform: translateX(80vw); 
-    }
-    100%
-    {
-       transform: translateX(100vw);
-       visibility: hidden; 
-    }
+ 
 }
