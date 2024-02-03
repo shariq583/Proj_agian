@@ -38,25 +38,41 @@
 .slider
 {
     display: flex;
-    flex-direction: row;    
-    justify-content: center;
+    margin: 0 auto;
+    box-shadow: 7px 5px 5px black ;
+    /* border: 2px solid black; */
+    height: 27vw;
+    width: 90vw;    
+    animation: slide 10s ease-in-out  infinite alternate;
 }
-.image
-{
-    width: 500px;
-}
-.image1
-{
-    width: 100vw;
-   
-}
-.image2
-{
- 
-    
+@keyframes slide {
+    0%
+    {
+        opacity: 10%;
+        background-image:url(/Web_development/Html\,Css\,Js/CSS/FinalProj/img/umrah.png) ;
 
-}
-.image3
-{
- 
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 100%;
+    }
+    48%
+    {
+        opacity: 0%;
+        background-image:url(/Web_development/Html\,Css\,Js/CSS/FinalProj/img/Swis.jpeg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 70%;
+        opacity: 100%;
+        
+    }
+    95%
+    {
+        opacity: 0%;
+        
+        background-image:url(/Web_development/Html\,Css\,Js/CSS/FinalProj/img/Australia.jpeg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 100%;
+        
+    }
 }
