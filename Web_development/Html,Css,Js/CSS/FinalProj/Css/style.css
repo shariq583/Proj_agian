@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
 *
 {
     margin: 0;
@@ -6,16 +7,18 @@
 :root
 {
     --theme: rgb(0, 30, 255);
+    --bg-theme: rgb(137, 147, 224) ;
 }
 .navbar
 {
+    font-family: 'Poor Story', system-ui;
     list-style: none;    
     background-color: var(--theme);
     min-height: 3vw;
     display: flex;
     justify-content: space-between;
-
-    
+    border :1px solid black;
+    font-weight: 900;    
 }
 
 .navbar ul
@@ -27,7 +30,7 @@
 }
 .navbar ul li 
 {
-    padding: 0vh 1vw;
+    padding: 0vh 0.5vw;
     display: inline;
 }
 .navbar ul li a 
@@ -35,10 +38,16 @@
     color: aliceblue;
     text-decoration: dashed;
 }
+
+body
+{
+    background-color: var(--bg-theme);
+}
 .slider
 {
+    
     display: flex;
-    margin: 0 auto;
+    margin: 1vw auto 0vw auto;
     box-shadow: 7px 5px 5px black ;
     /* border: 2px solid black; */
     height: 27vw;
@@ -76,3 +85,9 @@
         
     }
 }
+.FPackages
+{
+    padding-top:1vw; 
+    font-family: 'Poor Story', system-ui;
+}
+
