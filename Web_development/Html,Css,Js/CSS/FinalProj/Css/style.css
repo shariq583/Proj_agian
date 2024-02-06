@@ -20,13 +20,24 @@
     border :1px solid black;
     font-weight: 900;    
 }
-
+.Search
+{
+    height: 2vw;
+    width: 20vw;
+    margin-top: 1.5vw;
+}
+#SearcBtn
+{
+    height: 36px;
+    width: 36px;
+}
 .navbar ul
 {
     display: flex;
     height: 3vw;
     justify-content: end;
     align-self: flex-end;
+    margin-right: 0.5vw;
 }
 .navbar ul li 
 {
