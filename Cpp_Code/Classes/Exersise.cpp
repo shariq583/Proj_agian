@@ -20,8 +20,18 @@ class SimpleCal
         num1_P=a;
         num2_P=b;
     }
-    
-    
+    int SimCal (string ch){
+    if (ch=="+")
+    {
+        return num1_P+num2_P;
+    }
+    else if (ch=="-")
+    {
+        return num1_P-num2_P;
+    }
+
+    }
+     
 
 };
 
