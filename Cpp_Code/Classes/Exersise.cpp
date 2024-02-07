@@ -5,6 +5,8 @@ Exersise Questions :
 // Answer :
 #include<iostream>
 #include<cmath>
+#include <string>
+#define _USE_MATH_DEFINES
 using namespace std;
 class SimpleCal
 {
@@ -66,16 +68,15 @@ public :
     float SfiCal (string chs){
     if (chs=="cos" || chs=="Cos" || chs=="COS")
     {
-        return (cos(num1_S));
+        return (cos(num1_S * M_PI / 180.0)); 
     }
     else if (chs=="sin" || chs=="Sin" || chs=="SIN")
     {
-       return (sin(num1_S));
+       return (sin(num1_S * M_PI / 180.0)); 
     }
     else if (chs=="tan" || chs=="Tan" || chs=="TAN")
     {
-       return (tan(num1_S));
-
+       return (tan(num1_S * M_PI / 180.0)); 
     }    
     else 
     {
@@ -84,11 +85,21 @@ public :
     }
 
 };
+class HybCal : public SimpleCal , public SciCal
+{
+    public :
+    void Mdisplay(string chh)
+    {   
+        if (chh=="+")
+    {
+        cout<<SimCal;
+    }
+
+    }
+};
 
 
 int main()
 {
-    SciCal a(90);    
-    cout<< a.SfiCal("sin");
 
 }
