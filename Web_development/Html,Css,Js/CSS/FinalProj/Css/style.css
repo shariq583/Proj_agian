@@ -101,4 +101,30 @@ body
     padding-top:1vw; 
     font-family: 'Poor Story', system-ui;
 }
+.CardStock
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1vw;
+}
+.card1
+{
+    text-align: center;
+}
+.card2
+{
+    text-align: center;
+}
+.card3
+{
+    text-align: center;
+}
+.card4
+{
+    text-align: center;
+}
+.card5
+{
+    text-align: center;
+}
 
