@@ -7,7 +7,7 @@
 :root
 {
     --theme: rgb(0, 30, 255);
-    --bg-theme: rgb(137, 147, 224) ;
+    --bg-theme: rgb(208, 212, 242) ;
 }
 .navbar
 {
@@ -25,11 +25,16 @@
     height: 2vw;
     width: 20vw;
     margin-top: 1.5vw;
+   
+    padding-left: 1vw;
 }
-#SearcBtn
+#SearchBtn
 {
-    height: 36px;
-    width: 36px;
+   
+    width: auto;
+    height: 25px;
+    background-image: url('/Web_development/Html/Css/Js/CSS/FinalProj/img/SearchIcon.png');
+
 }
 .navbar ul
 {
@@ -59,7 +64,7 @@ body
     
     display: flex;
     margin: 1vw auto 0vw auto;
-    box-shadow: 7px 5px 5px black ;
+    box-shadow: 7px 5px 5px var(--theme) ;
     /* border: 2px solid black; */
     height: 27vw;
     width: 90vw;    
