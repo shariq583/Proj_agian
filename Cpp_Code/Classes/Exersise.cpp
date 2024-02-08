@@ -87,15 +87,26 @@ public :
 };
 class HybCal : public SimpleCal , public SciCal
 {
+
     public :
-    void Mdisplay(string chh)
-    {   
-        if (chh=="+")
+    void PrRes (string chH)
     {
-        cout<<SimCal;
+        if (chH=="+" || chH=="-" || chH=="*" || chH=="/")
+        {
+            cout<<"The result of "<<num1_P<<chH<<num2_P<<"is :"<<SimCal(chH)<<endl;
+        }
+        else if (chH=="cos" || chH=="Cos" || chH=="COS" || chH=="sin"|| chH=="Sin" ||chH=="SIN" || chH=="tan" || chH=="Tan" || chH=="TAN")
+        {
+            cout<<"The result of "<<chH<<"("<<num1_S<<")"<<"is :"<<SfiCal(chH)<<endl;
+        }
+        else
+        {
+            cout<<"\nSyntax Error!";
+        }
     }
 
-    }
+
+
 };
 
 
