@@ -3,17 +3,17 @@ using namespace std;
 class AdminDash;
 class cred
 {
-public:
+    protected :
     string userPin;
     string adminPin;
     string userAccNo;
     string adminAccNo;
+    public :
     cred()
     {
         userPin = "0000";
         adminPin = "0000";
     }
-
     void setUserAccNo(string inpUserAccNo)
     {
         userAccNo = inpUserAccNo;
@@ -54,13 +54,31 @@ public:
         }
     }
 };
-class AdminDash : public cred 
+class AdminDash : public cred , protected UserInfo
 {
+    private :
+    string intrRate="4";
+    protected :
+    string SavMon;
+    string IntrMon;
     public :
+        void InitMon(int tempMon)
+        {
+            SavMon = tempMon;
+        }
+        void IntrMonSet()
+        {
+            IntrMon = ((stoi(SavMon))+(stoi(intrRate))/(100));
+        }
+        void AdDisplay(cred* a)
+        {
+
+        }
 
 };
-class UserInfo : public cred 
+class UserInfo : public cred , protected AdminDash
 {
+    protected :
     public :
     
 
@@ -165,11 +183,11 @@ int main()
                 tempPLA=Acred.UserCheckAccNo(APin_L);
                 if (tempPLA == 0)
                 {
-                    // code to be put.
+                    // code to be put....
                 }
                 else
                 {
-                    /* code */
+                    // code to be put...
                 }
                 
             }
