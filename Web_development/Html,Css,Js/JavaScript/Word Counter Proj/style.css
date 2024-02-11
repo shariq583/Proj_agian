@@ -34,3 +34,11 @@ body
     width: 5vw;
     align-self: flex-end;
 }
+.Contxt
+{
+    display: inline-block;
+}
+#count
+{
+    display: inline-block;
+}
