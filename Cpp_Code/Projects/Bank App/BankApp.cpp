@@ -6,9 +6,9 @@ class cred
     protected :
     string userPin;
     string adminPin;
-    string userAccNo;
     string adminAccNo;
     public :
+    string userAccNo;
     cred()
     {
         userPin = "0000";
@@ -70,9 +70,9 @@ class AdminDash : public cred , protected UserInfo
         {
             IntrMon = ((stoi(SavMon))+(stoi(intrRate))/(100));
         }
-        void AdDisplay(cred* a)
+        void AdDisplay(cred temp)
         {
-           * a;
+           std::cout << "The User A/c No. is:" <<temp.userAccNo << std::endl;
         }
 
 };
