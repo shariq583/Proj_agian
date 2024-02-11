@@ -72,7 +72,7 @@ class AdminDash : public cred , protected UserInfo
         }
         void AdDisplay(cred* a)
         {
-
+           * a;
         }
 
 };
