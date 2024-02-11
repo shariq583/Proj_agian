@@ -25,6 +25,8 @@
     //             alert("Lol you are not born yet!")                
     //         }
     // }
-
-
+// // Event Listener
+// function clicked() {
+//     alert("You Clicked a button!")
+// }
 console.clear;
